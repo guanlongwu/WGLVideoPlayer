@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09644B8222239AB500F94103 /* WGLVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B8122239AB500F94103 /* WGLVideoPlayer.m */; };
+		09644B8322239AB500F94103 /* WGLVideoPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09644B8022239AB500F94103 /* WGLVideoPlayer.h */; };
+		09644B912223C4F100F94103 /* WGLCorePlayerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B902223C4F100F94103 /* WGLCorePlayerBase.m */; };
+		09644B942223C9B100F94103 /* WGLCorePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B932223C9B100F94103 /* WGLCorePlayer.m */; };
+		09644B982223D06500F94103 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09644B972223D06500F94103 /* IJKMediaFramework.framework */; };
+		09644B9D2223DB9B00F94103 /* WGLURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B9C2223DB9B00F94103 /* WGLURLProvider.m */; };
+		09644BA12223DD7500F94103 /* WGLVideoURLPagesEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BA02223DD7500F94103 /* WGLVideoURLPagesEntity.m */; };
+		09644BA62223E92600F94103 /* WGLPlayerCoverViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BA52223E92600F94103 /* WGLPlayerCoverViewBase.m */; };
+		09644BAA2223EA4600F94103 /* WGLPlayerCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BA92223EA4600F94103 /* WGLPlayerCoverView.m */; };
+		09644BAE2223EEF100F94103 /* WGLVideoPlayerOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BAD2223EEF100F94103 /* WGLVideoPlayerOption.m */; };
+		09644BB12223F0D000F94103 /* WGLPlayerCoverFullScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BB02223F0D000F94103 /* WGLPlayerCoverFullScreenView.m */; };
+		09644BCA222405D000F94103 /* WGLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BC9222405D000F94103 /* WGLSlider.m */; };
+		09644BCD2224DB3A00F94103 /* WGLVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BCC2224DB3A00F94103 /* WGLVideoPlayerView.m */; };
+		09644BEA222561C400F94103 /* WGLVideoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BE9222561C400F94103 /* WGLVideoLoadingView.m */; };
+		09644BED2225628100F94103 /* WGLPlayerNetworkStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BEC2225628100F94103 /* WGLPlayerNetworkStatusView.m */; };
+		09644C1B2226398600F94103 /* WGLVolumeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C1A2226398600F94103 /* WGLVolumeProgressView.m */; };
+		09644C342226692A00F94103 /* WGLVideoPlayerGesturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C322226692900F94103 /* WGLVideoPlayerGesturer.m */; };
+		09644C3722266D9500F94103 /* WGLBrightnessProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C3622266D9500F94103 /* WGLBrightnessProgressView.m */; };
+		09644C3A22266EEC00F94103 /* WGLVideoRateProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C3922266EEC00F94103 /* WGLVideoRateProgressView.m */; };
+		09644C3D222672ED00F94103 /* WGLPlayerTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C3C222672ED00F94103 /* WGLPlayerTipView.m */; };
+		09644C4022267ABD00F94103 /* WGLVideoPlayerCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C3F22267ABD00F94103 /* WGLVideoPlayerCommon.m */; };
+		09644C4422267B7000F94103 /* WGLPlayerDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C4322267B7000F94103 /* WGLPlayerDummy.m */; };
+		09644C4722267C1E00F94103 /* WGLPlayerTipMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C4622267C1E00F94103 /* WGLPlayerTipMgr.m */; };
+		09644C4A22267D2400F94103 /* WGLPlayerProgressCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C4922267D2400F94103 /* WGLPlayerProgressCache.m */; };
+		09644C4E2226807800F94103 /* WGLCustomVolumnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C4C2226807800F94103 /* WGLCustomVolumnManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09644B7B22239AB500F94103 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				09644B8322239AB500F94103 /* WGLVideoPlayer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09644B7D22239AB500F94103 /* libWGLVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWGLVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		09644B8022239AB500F94103 /* WGLVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayer.h; sourceTree = "<group>"; };
+		09644B8122239AB500F94103 /* WGLVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayer.m; sourceTree = "<group>"; };
+		09644B8E2223C2A400F94103 /* WGLCorePlayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayerProtocol.h; sourceTree = "<group>"; };
+		09644B8F2223C4F100F94103 /* WGLCorePlayerBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayerBase.h; sourceTree = "<group>"; };
+		09644B902223C4F100F94103 /* WGLCorePlayerBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLCorePlayerBase.m; sourceTree = "<group>"; };
+		09644B922223C9B100F94103 /* WGLCorePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayer.h; sourceTree = "<group>"; };
+		09644B932223C9B100F94103 /* WGLCorePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLCorePlayer.m; sourceTree = "<group>"; };
+		09644B972223D06500F94103 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = ../IJKMediaPlayer/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		09644B9B2223DB9B00F94103 /* WGLURLProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLURLProvider.h; sourceTree = "<group>"; };
+		09644B9C2223DB9B00F94103 /* WGLURLProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLURLProvider.m; sourceTree = "<group>"; };
+		09644B9F2223DD7500F94103 /* WGLVideoURLPagesEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoURLPagesEntity.h; sourceTree = "<group>"; };
+		09644BA02223DD7500F94103 /* WGLVideoURLPagesEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoURLPagesEntity.m; sourceTree = "<group>"; };
+		09644BA32223E88C00F94103 /* WGLPlayerCoverViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverViewProtocol.h; sourceTree = "<group>"; };
+		09644BA42223E92600F94103 /* WGLPlayerCoverViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverViewBase.h; sourceTree = "<group>"; };
+		09644BA52223E92600F94103 /* WGLPlayerCoverViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverViewBase.m; sourceTree = "<group>"; };
+		09644BA82223EA4600F94103 /* WGLPlayerCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverView.h; sourceTree = "<group>"; };
+		09644BA92223EA4600F94103 /* WGLPlayerCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverView.m; sourceTree = "<group>"; };
+		09644BAC2223EEF100F94103 /* WGLVideoPlayerOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerOption.h; sourceTree = "<group>"; };
+		09644BAD2223EEF100F94103 /* WGLVideoPlayerOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayerOption.m; sourceTree = "<group>"; };
+		09644BAF2223F0D000F94103 /* WGLPlayerCoverFullScreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverFullScreenView.h; sourceTree = "<group>"; };
+		09644BB02223F0D000F94103 /* WGLPlayerCoverFullScreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverFullScreenView.m; sourceTree = "<group>"; };
+		09644BC8222405D000F94103 /* WGLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLSlider.h; sourceTree = "<group>"; };
+		09644BC9222405D000F94103 /* WGLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLSlider.m; sourceTree = "<group>"; };
+		09644BCB2224DB3A00F94103 /* WGLVideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerView.h; sourceTree = "<group>"; };
+		09644BCC2224DB3A00F94103 /* WGLVideoPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayerView.m; sourceTree = "<group>"; };
+		09644BCF2224DCC800F94103 /* WGLVideoPlayerUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerUtil.h; sourceTree = "<group>"; };
+		09644BE8222561C400F94103 /* WGLVideoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLVideoLoadingView.h; sourceTree = "<group>"; };
+		09644BE9222561C400F94103 /* WGLVideoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLVideoLoadingView.m; sourceTree = "<group>"; };
+		09644BEB2225628100F94103 /* WGLPlayerNetworkStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerNetworkStatusView.h; sourceTree = "<group>"; };
+		09644BEC2225628100F94103 /* WGLPlayerNetworkStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerNetworkStatusView.m; sourceTree = "<group>"; };
+		09644C192226398600F94103 /* WGLVolumeProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLVolumeProgressView.h; sourceTree = "<group>"; };
+		09644C1A2226398600F94103 /* WGLVolumeProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLVolumeProgressView.m; sourceTree = "<group>"; };
+		09644C322226692900F94103 /* WGLVideoPlayerGesturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayerGesturer.m; sourceTree = "<group>"; };
+		09644C332226692900F94103 /* WGLVideoPlayerGesturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerGesturer.h; sourceTree = "<group>"; };
+		09644C3522266D9500F94103 /* WGLBrightnessProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLBrightnessProgressView.h; sourceTree = "<group>"; };
+		09644C3622266D9500F94103 /* WGLBrightnessProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLBrightnessProgressView.m; sourceTree = "<group>"; };
+		09644C3822266EEC00F94103 /* WGLVideoRateProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoRateProgressView.h; sourceTree = "<group>"; };
+		09644C3922266EEC00F94103 /* WGLVideoRateProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoRateProgressView.m; sourceTree = "<group>"; };
+		09644C3B222672ED00F94103 /* WGLPlayerTipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerTipView.h; sourceTree = "<group>"; };
+		09644C3C222672ED00F94103 /* WGLPlayerTipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerTipView.m; sourceTree = "<group>"; };
+		09644C3E22267ABD00F94103 /* WGLVideoPlayerCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerCommon.h; sourceTree = "<group>"; };
+		09644C3F22267ABD00F94103 /* WGLVideoPlayerCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayerCommon.m; sourceTree = "<group>"; };
+		09644C4222267B7000F94103 /* WGLPlayerDummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerDummy.h; sourceTree = "<group>"; };
+		09644C4322267B7000F94103 /* WGLPlayerDummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerDummy.m; sourceTree = "<group>"; };
+		09644C4522267C1E00F94103 /* WGLPlayerTipMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerTipMgr.h; sourceTree = "<group>"; };
+		09644C4622267C1E00F94103 /* WGLPlayerTipMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerTipMgr.m; sourceTree = "<group>"; };
+		09644C4822267D2400F94103 /* WGLPlayerProgressCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerProgressCache.h; sourceTree = "<group>"; };
+		09644C4922267D2400F94103 /* WGLPlayerProgressCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerProgressCache.m; sourceTree = "<group>"; };
+		09644C4C2226807800F94103 /* WGLCustomVolumnManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLCustomVolumnManager.m; sourceTree = "<group>"; };
+		09644C4D2226807800F94103 /* WGLCustomVolumnManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLCustomVolumnManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09644B7A22239AB500F94103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09644B982223D06500F94103 /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09644B7422239AB500F94103 = {
+			isa = PBXGroup;
+			children = (
+				09644B7F22239AB500F94103 /* WGLVideoPlayer */,
+				09644B7E22239AB500F94103 /* Products */,
+				09644B962223D06400F94103 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09644B7E22239AB500F94103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09644B7D22239AB500F94103 /* libWGLVideoPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09644B7F22239AB500F94103 /* WGLVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				09644B8022239AB500F94103 /* WGLVideoPlayer.h */,
+				09644B8122239AB500F94103 /* WGLVideoPlayer.m */,
+				09644BCB2224DB3A00F94103 /* WGLVideoPlayerView.h */,
+				09644BCC2224DB3A00F94103 /* WGLVideoPlayerView.m */,
+				09644B892223C1F300F94103 /* Main */,
+				09644BCE2224DC7500F94103 /* Util */,
+				09644BE6222561C400F94103 /* Tool */,
+			);
+			path = WGLVideoPlayer;
+			sourceTree = "<group>";
+		};
+		09644B892223C1F300F94103 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				09644B8A2223C1F300F94103 /* Core */,
+				09644B9A2223DAF500F94103 /* URL */,
+				09644BAB2223EECE00F94103 /* Option */,
+				09644B9E2223DC5000F94103 /* Entity */,
+				09644BA22223E85000F94103 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		09644B8A2223C1F300F94103 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				09644B8E2223C2A400F94103 /* WGLCorePlayerProtocol.h */,
+				09644B8F2223C4F100F94103 /* WGLCorePlayerBase.h */,
+				09644B902223C4F100F94103 /* WGLCorePlayerBase.m */,
+				09644B922223C9B100F94103 /* WGLCorePlayer.h */,
+				09644B932223C9B100F94103 /* WGLCorePlayer.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		09644B962223D06400F94103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09644B972223D06500F94103 /* IJKMediaFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09644B9A2223DAF500F94103 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				09644B9B2223DB9B00F94103 /* WGLURLProvider.h */,
+				09644B9C2223DB9B00F94103 /* WGLURLProvider.m */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		09644B9E2223DC5000F94103 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				09644B9F2223DD7500F94103 /* WGLVideoURLPagesEntity.h */,
+				09644BA02223DD7500F94103 /* WGLVideoURLPagesEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		09644BA22223E85000F94103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09644BA32223E88C00F94103 /* WGLPlayerCoverViewProtocol.h */,
+				09644BA42223E92600F94103 /* WGLPlayerCoverViewBase.h */,
+				09644BA52223E92600F94103 /* WGLPlayerCoverViewBase.m */,
+				09644BC7222405D000F94103 /* WGLSlider */,
+				09644BA72223EA3400F94103 /* Sub */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09644BA72223EA3400F94103 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				09644BA82223EA4600F94103 /* WGLPlayerCoverView.h */,
+				09644BA92223EA4600F94103 /* WGLPlayerCoverView.m */,
+				09644BAF2223F0D000F94103 /* WGLPlayerCoverFullScreenView.h */,
+				09644BB02223F0D000F94103 /* WGLPlayerCoverFullScreenView.m */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		09644BAB2223EECE00F94103 /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				09644BAC2223EEF100F94103 /* WGLVideoPlayerOption.h */,
+				09644BAD2223EEF100F94103 /* WGLVideoPlayerOption.m */,
+			);
+			path = Option;
+			sourceTree = "<group>";
+		};
+		09644BC7222405D000F94103 /* WGLSlider */ = {
+			isa = PBXGroup;
+			children = (
+				09644BC8222405D000F94103 /* WGLSlider.h */,
+				09644BC9222405D000F94103 /* WGLSlider.m */,
+			);
+			path = WGLSlider;
+			sourceTree = "<group>";
+		};
+		09644BCE2224DC7500F94103 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				09644BCF2224DCC800F94103 /* WGLVideoPlayerUtil.h */,
+				09644C3E22267ABD00F94103 /* WGLVideoPlayerCommon.h */,
+				09644C3F22267ABD00F94103 /* WGLVideoPlayerCommon.m */,
+				09644C4B2226807800F94103 /* WGLCustomVolumnManager */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		09644BE6222561C400F94103 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				09644C4122267B4C00F94103 /* WGLPlayerDummy */,
+				09644C312226692900F94103 /* WGLVideoPlayerGesturer */,
+				09644C182226398600F94103 /* WGLVolumeProgressView */,
+				09644BE7222561C400F94103 /* WGLVideoLoadingView */,
+				09644BEB2225628100F94103 /* WGLPlayerNetworkStatusView.h */,
+				09644BEC2225628100F94103 /* WGLPlayerNetworkStatusView.m */,
+				09644C3522266D9500F94103 /* WGLBrightnessProgressView.h */,
+				09644C3622266D9500F94103 /* WGLBrightnessProgressView.m */,
+				09644C3822266EEC00F94103 /* WGLVideoRateProgressView.h */,
+				09644C3922266EEC00F94103 /* WGLVideoRateProgressView.m */,
+				09644C3B222672ED00F94103 /* WGLPlayerTipView.h */,
+				09644C3C222672ED00F94103 /* WGLPlayerTipView.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		09644BE7222561C400F94103 /* WGLVideoLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				09644BE8222561C400F94103 /* WGLVideoLoadingView.h */,
+				09644BE9222561C400F94103 /* WGLVideoLoadingView.m */,
+			);
+			path = WGLVideoLoadingView;
+			sourceTree = "<group>";
+		};
+		09644C182226398600F94103 /* WGLVolumeProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				09644C192226398600F94103 /* WGLVolumeProgressView.h */,
+				09644C1A2226398600F94103 /* WGLVolumeProgressView.m */,
+			);
+			name = WGLVolumeProgressView;
+			path = ../../../WGLVolumeProgressView/WGLVolumeProgressView;
+			sourceTree = "<group>";
+		};
+		09644C312226692900F94103 /* WGLVideoPlayerGesturer */ = {
+			isa = PBXGroup;
+			children = (
+				09644C322226692900F94103 /* WGLVideoPlayerGesturer.m */,
+				09644C332226692900F94103 /* WGLVideoPlayerGesturer.h */,
+			);
+			name = WGLVideoPlayerGesturer;
+			path = ../../../WGLVideoPlayerGesturer/WGLVideoPlayerGesturer;
+			sourceTree = "<group>";
+		};
+		09644C4122267B4C00F94103 /* WGLPlayerDummy */ = {
+			isa = PBXGroup;
+			children = (
+				09644C4222267B7000F94103 /* WGLPlayerDummy.h */,
+				09644C4322267B7000F94103 /* WGLPlayerDummy.m */,
+				09644C4522267C1E00F94103 /* WGLPlayerTipMgr.h */,
+				09644C4622267C1E00F94103 /* WGLPlayerTipMgr.m */,
+				09644C4822267D2400F94103 /* WGLPlayerProgressCache.h */,
+				09644C4922267D2400F94103 /* WGLPlayerProgressCache.m */,
+			);
+			path = WGLPlayerDummy;
+			sourceTree = "<group>";
+		};
+		09644C4B2226807800F94103 /* WGLCustomVolumnManager */ = {
+			isa = PBXGroup;
+			children = (
+				09644C4D2226807800F94103 /* WGLCustomVolumnManager.h */,
+				09644C4C2226807800F94103 /* WGLCustomVolumnManager.m */,
+			);
+			name = WGLCustomVolumnManager;
+			path = ../../../WGLCustomVolumnManager/WGLCustomVolumnManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09644B7C22239AB500F94103 /* WGLVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09644B8622239AB500F94103 /* Build configuration list for PBXNativeTarget "WGLVideoPlayer" */;
+			buildPhases = (
+				09644B7922239AB500F94103 /* Sources */,
+				09644B7A22239AB500F94103 /* Frameworks */,
+				09644B7B22239AB500F94103 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGLVideoPlayer;
+			productName = WGLVideoPlayer;
+			productReference = 09644B7D22239AB500F94103 /* libWGLVideoPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09644B7522239AB500F94103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = WGLKit;
+				TargetAttributes = {
+					09644B7C22239AB500F94103 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 09644B7822239AB500F94103 /* Build configuration list for PBXProject "WGLVideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09644B7422239AB500F94103;
+			productRefGroup = 09644B7E22239AB500F94103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09644B7C22239AB500F94103 /* WGLVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09644B7922239AB500F94103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09644BAE2223EEF100F94103 /* WGLVideoPlayerOption.m in Sources */,
+				09644C4A22267D2400F94103 /* WGLPlayerProgressCache.m in Sources */,
+				09644BCD2224DB3A00F94103 /* WGLVideoPlayerView.m in Sources */,
+				09644C1B2226398600F94103 /* WGLVolumeProgressView.m in Sources */,
+				09644BAA2223EA4600F94103 /* WGLPlayerCoverView.m in Sources */,
+				09644C342226692A00F94103 /* WGLVideoPlayerGesturer.m in Sources */,
+				09644B8222239AB500F94103 /* WGLVideoPlayer.m in Sources */,
+				09644B942223C9B100F94103 /* WGLCorePlayer.m in Sources */,
+				09644B912223C4F100F94103 /* WGLCorePlayerBase.m in Sources */,
+				09644BEA222561C400F94103 /* WGLVideoLoadingView.m in Sources */,
+				09644C3A22266EEC00F94103 /* WGLVideoRateProgressView.m in Sources */,
+				09644C4722267C1E00F94103 /* WGLPlayerTipMgr.m in Sources */,
+				09644C3722266D9500F94103 /* WGLBrightnessProgressView.m in Sources */,
+				09644B9D2223DB9B00F94103 /* WGLURLProvider.m in Sources */,
+				09644C4E2226807800F94103 /* WGLCustomVolumnManager.m in Sources */,
+				09644C4022267ABD00F94103 /* WGLVideoPlayerCommon.m in Sources */,
+				09644BA12223DD7500F94103 /* WGLVideoURLPagesEntity.m in Sources */,
+				09644BA62223E92600F94103 /* WGLPlayerCoverViewBase.m in Sources */,
+				09644BB12223F0D000F94103 /* WGLPlayerCoverFullScreenView.m in Sources */,
+				09644BCA222405D000F94103 /* WGLSlider.m in Sources */,
+				09644C3D222672ED00F94103 /* WGLPlayerTipView.m in Sources */,
+				09644C4422267B7000F94103 /* WGLPlayerDummy.m in Sources */,
+				09644BED2225628100F94103 /* WGLPlayerNetworkStatusView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09644B8422239AB500F94103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09644B8522239AB500F94103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09644B8722239AB500F94103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer\"/**";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer/IJKMediaFramework.framework\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09644B8822239AB500F94103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer\"/**";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer/IJKMediaFramework.framework\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09644B7822239AB500F94103 /* Build configuration list for PBXProject "WGLVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09644B8422239AB500F94103 /* Debug */,
+				09644B8522239AB500F94103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09644B8622239AB500F94103 /* Build configuration list for PBXNativeTarget "WGLVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09644B8722239AB500F94103 /* Debug */,
+				09644B8822239AB500F94103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09644B7522239AB500F94103 /* Project object */;
+}
