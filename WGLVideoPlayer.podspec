@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WGLVideoPlayer"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "This is a video player component, including the player UI, internal encapsulated IJKPlayer and so on."
 
   # This description is used to generate tags and improve search results.
