@@ -1,1 +1,0 @@
-../../../WGLSlider/WGLSlider/WGLSlider.h
