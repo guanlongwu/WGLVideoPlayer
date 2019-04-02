@@ -25,7 +25,7 @@
 @synthesize lblTotalTime = _lblTotalTime;
 @synthesize lblCurrentTime = _lblCurrentTime;
 @synthesize progressView = _progressView;
-//@synthesize sliderView = _sliderView;
+@synthesize sliderView = _sliderView;
 @synthesize tapGesture = _tapGesture;
 @synthesize avatarView = _avatarView;
 @synthesize nickLabel = _nickLabel;
@@ -74,7 +74,7 @@
     [self.bottomBgView addSubview:self.lblCurrentTime];//当前播放时间
     [self.bottomBgView addSubview:self.lblTotalTime];  //视频总时长
     [self.bottomBgView addSubview:self.progressView];  //缓冲进度条
-//    [self.bottomBgView addSubview:self.sliderView];    //播放进度条
+    [self.bottomBgView addSubview:self.sliderView];    //播放进度条
     [self.bottomBgView addSubview:self.playBtn];//播放、暂停
     [self.bottomBgView addSubview:self.barrageShieldingBtn];//屏蔽弹幕
     
@@ -196,30 +196,30 @@
     return _progressView;
 }
 
-//- (WGLSlider *)sliderView {
-//    if (!_sliderView) {
-//        _sliderView = [[WGLSlider alloc] init];
-//        _sliderView.userInteractionEnabled = YES;
-//        _sliderView.continuous = NO;//设置为NO,只有在手指离开的时候调用valueChange
-//        _sliderView.minimumTrackTintColor = [UIColor grayColor];
-//        _sliderView.maximumTrackTintColor = [UIColor clearColor];
-//        _sliderView.thumbTintColor = [UIColor grayColor];
-//        _sliderView.minimumValue = 0;
-//        _sliderView.maximumValue = 1;
-//        _sliderView.enabled = YES;
-//        [_sliderView setThumbImage:[UIImage imageNamed:@"icon_player_slider_thumb"] forState:UIControlStateNormal];
-//        [_sliderView setThumbImage:[UIImage imageNamed:@"icon_player_slider_thumb"] forState:UIControlStateHighlighted];
-//
-//        [_sliderView addTarget:self action:@selector(sliderTouchDownEvent:) forControlEvents:UIControlEventTouchDown];
-//        [_sliderView addTarget:self action:@selector(sliderValuechange:) forControlEvents:UIControlEventValueChanged];
-//        [_sliderView addTarget:self action:@selector(sliderTouchUpEvent:) forControlEvents:UIControlEventTouchUpInside];
-//        [_sliderView addTarget:self action:@selector(sliderTouchUpEvent:) forControlEvents:UIControlEventTouchUpOutside];
-//
-//        [_sliderView addGestureRecognizer:self.tapGesture];
-//
-//    }
-//    return _sliderView;
-//}
+- (WGLSlider *)sliderView {
+    if (!_sliderView) {
+        _sliderView = [[WGLSlider alloc] init];
+        _sliderView.userInteractionEnabled = YES;
+        _sliderView.continuous = NO;//设置为NO,只有在手指离开的时候调用valueChange
+        _sliderView.minimumTrackTintColor = [UIColor grayColor];
+        _sliderView.maximumTrackTintColor = [UIColor clearColor];
+        _sliderView.thumbTintColor = [UIColor grayColor];
+        _sliderView.minimumValue = 0;
+        _sliderView.maximumValue = 1;
+        _sliderView.enabled = YES;
+        [_sliderView setThumbImage:[UIImage imageNamed:@"icon_player_slider_thumb"] forState:UIControlStateNormal];
+        [_sliderView setThumbImage:[UIImage imageNamed:@"icon_player_slider_thumb"] forState:UIControlStateHighlighted];
+
+        [_sliderView addTarget:self action:@selector(sliderTouchDownEvent:) forControlEvents:UIControlEventTouchDown];
+        [_sliderView addTarget:self action:@selector(sliderValuechange:) forControlEvents:UIControlEventValueChanged];
+        [_sliderView addTarget:self action:@selector(sliderTouchUpEvent:) forControlEvents:UIControlEventTouchUpInside];
+        [_sliderView addTarget:self action:@selector(sliderTouchUpEvent:) forControlEvents:UIControlEventTouchUpOutside];
+
+        [_sliderView addGestureRecognizer:self.tapGesture];
+
+    }
+    return _sliderView;
+}
 
 - (UIButton *)barrageShieldingBtn {
     if (!_barrageShieldingBtn) {
@@ -413,7 +413,7 @@
     
     if (isFinish) {
         [self removeTimer];
-//        [self.sliderView setValue:1 animated:NO];
+        [self.sliderView setValue:1 animated:NO];
     }
     else {
         [self addTimer];
@@ -427,41 +427,41 @@
 
 //点击滑块操作
 - (void)sliderTap:(UITapGestureRecognizer *)tap {
-//    UISlider *slider = (UISlider *)tap.view;
-//    CGPoint point = [tap locationInView:self.sliderView];
-//    double value = point.x/self.sliderView.bounds.size.width*1;
-//
-//    NSTimeInterval duration = [WGLVideoPlayer sharedPlayer].duration;
-//    NSLog(@"[HYVideoPlayerCoverView] sliderTap value:%f, player.duration:%f", value, duration);
-//
-//    if (value == duration) {
-//        if (duration > 5.00) {
-//            value = duration - 1.0;
-//        }
-//        else if (duration <= 5.0) {
-//            value = duration * 0.8;
-//        }
-//        [self removeTimer];
-//        [self.sliderView setValue:1 animated:NO];
-//    }
-//    else {
-//        [self addTimer];
-//    }
-//
-//    [self.sliderView setValue:value animated:YES];
-//    self.lblCurrentTime.text = [WGLVideoPlayerOption timeformatFromSeconds:value];
-//
-//    NSTimeInterval currentTime = slider.value * duration;
-//    [WGLVideoPlayer sharedPlayer].currentPlaybackTime = currentTime;
-//
-//    if ([WGLVideoPlayer sharedPlayer].isPlaying) {
-//        [self play];
-//
-//#ifdef VIDEOPLAYER_MONITOR
-//        [[VideoPlayerMonitor defaultMonitor] mediaSeekStart];
-//#endif
-//    }
-//    [self hideCoverView];
+    UISlider *slider = (UISlider *)tap.view;
+    CGPoint point = [tap locationInView:self.sliderView];
+    double value = point.x/self.sliderView.bounds.size.width*1;
+
+    NSTimeInterval duration = [WGLVideoPlayer sharedPlayer].duration;
+    NSLog(@"[HYVideoPlayerCoverView] sliderTap value:%f, player.duration:%f", value, duration);
+
+    if (value == duration) {
+        if (duration > 5.00) {
+            value = duration - 1.0;
+        }
+        else if (duration <= 5.0) {
+            value = duration * 0.8;
+        }
+        [self removeTimer];
+        [self.sliderView setValue:1 animated:NO];
+    }
+    else {
+        [self addTimer];
+    }
+
+    [self.sliderView setValue:value animated:YES];
+    self.lblCurrentTime.text = [WGLVideoPlayerOption timeformatFromSeconds:value];
+
+    NSTimeInterval currentTime = slider.value * duration;
+    [WGLVideoPlayer sharedPlayer].currentPlaybackTime = currentTime;
+
+    if ([WGLVideoPlayer sharedPlayer].isPlaying) {
+        [self play];
+
+#ifdef VIDEOPLAYER_MONITOR
+        [[VideoPlayerMonitor defaultMonitor] mediaSeekStart];
+#endif
+    }
+    [self hideCoverView];
 }
 
 #pragma mark - 手势事件
@@ -550,7 +550,7 @@
         float currentValue = current/total;
         float progressValue = able/total > 0.9 ? 1.0 : able/total;//缓冲结束，able偶尔会比total的值小一点
         
-//        [self.sliderView setValue:currentValue animated:NO];
+        [self.sliderView setValue:currentValue animated:NO];
         [self.progressView setProgress:progressValue animated:NO];
     }
 }

@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0956F463225351C200CA026F /* WGLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F461225351C200CA026F /* WGLSlider.m */; };
+		0956F47D2253557D00CA026F /* WGLCorePlayerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4662253557D00CA026F /* WGLCorePlayerBase.m */; };
+		0956F47E2253557D00CA026F /* WGLCorePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4672253557D00CA026F /* WGLCorePlayer.m */; };
+		0956F47F2253557D00CA026F /* WGLVideoURLPagesEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F46C2253557D00CA026F /* WGLVideoURLPagesEntity.m */; };
+		0956F4802253557D00CA026F /* WGLVideoPlayerOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4702253557D00CA026F /* WGLVideoPlayerOption.m */; };
+		0956F4812253557D00CA026F /* WGLURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4732253557D00CA026F /* WGLURLProvider.m */; };
+		0956F4822253557D00CA026F /* WGLPlayerCoverViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4752253557D00CA026F /* WGLPlayerCoverViewBase.m */; };
+		0956F4832253557D00CA026F /* WGLPlayerCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4782253557D00CA026F /* WGLPlayerCoverView.m */; };
+		0956F4842253557D00CA026F /* WGLPlayerCoverFullScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4792253557D00CA026F /* WGLPlayerCoverFullScreenView.m */; };
+		0956F488225355A200CA026F /* WGLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F486225355A200CA026F /* WGLSlider.m */; };
 		09644B8222239AB500F94103 /* WGLVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B8122239AB500F94103 /* WGLVideoPlayer.m */; };
 		09644B8322239AB500F94103 /* WGLVideoPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09644B8022239AB500F94103 /* WGLVideoPlayer.h */; };
-		09644B912223C4F100F94103 /* WGLCorePlayerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B902223C4F100F94103 /* WGLCorePlayerBase.m */; };
-		09644B942223C9B100F94103 /* WGLCorePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B932223C9B100F94103 /* WGLCorePlayer.m */; };
 		09644B982223D06500F94103 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09644B972223D06500F94103 /* IJKMediaFramework.framework */; };
-		09644B9D2223DB9B00F94103 /* WGLURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B9C2223DB9B00F94103 /* WGLURLProvider.m */; };
-		09644BA12223DD7500F94103 /* WGLVideoURLPagesEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BA02223DD7500F94103 /* WGLVideoURLPagesEntity.m */; };
-		09644BA62223E92600F94103 /* WGLPlayerCoverViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BA52223E92600F94103 /* WGLPlayerCoverViewBase.m */; };
-		09644BAA2223EA4600F94103 /* WGLPlayerCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BA92223EA4600F94103 /* WGLPlayerCoverView.m */; };
-		09644BAE2223EEF100F94103 /* WGLVideoPlayerOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BAD2223EEF100F94103 /* WGLVideoPlayerOption.m */; };
-		09644BB12223F0D000F94103 /* WGLPlayerCoverFullScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BB02223F0D000F94103 /* WGLPlayerCoverFullScreenView.m */; };
 		09644BCD2224DB3A00F94103 /* WGLVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BCC2224DB3A00F94103 /* WGLVideoPlayerView.m */; };
 		09644BEA222561C400F94103 /* WGLVideoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BE9222561C400F94103 /* WGLVideoLoadingView.m */; };
 		09644BED2225628100F94103 /* WGLPlayerNetworkStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644BEC2225628100F94103 /* WGLPlayerNetworkStatusView.m */; };
@@ -48,30 +48,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0956F461225351C200CA026F /* WGLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WGLSlider.m; path = ../../../WGLSlider/WGLSlider/WGLSlider.m; sourceTree = "<group>"; };
-		0956F462225351C200CA026F /* WGLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WGLSlider.h; path = ../../../WGLSlider/WGLSlider/WGLSlider.h; sourceTree = "<group>"; };
+		0956F4662253557D00CA026F /* WGLCorePlayerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLCorePlayerBase.m; sourceTree = "<group>"; };
+		0956F4672253557D00CA026F /* WGLCorePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLCorePlayer.m; sourceTree = "<group>"; };
+		0956F4682253557D00CA026F /* WGLCorePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayer.h; sourceTree = "<group>"; };
+		0956F4692253557D00CA026F /* WGLCorePlayerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayerBase.h; sourceTree = "<group>"; };
+		0956F46A2253557D00CA026F /* WGLCorePlayerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayerProtocol.h; sourceTree = "<group>"; };
+		0956F46C2253557D00CA026F /* WGLVideoURLPagesEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLVideoURLPagesEntity.m; sourceTree = "<group>"; };
+		0956F46D2253557D00CA026F /* WGLVideoURLPagesEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLVideoURLPagesEntity.h; sourceTree = "<group>"; };
+		0956F46F2253557D00CA026F /* WGLVideoPlayerOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerOption.h; sourceTree = "<group>"; };
+		0956F4702253557D00CA026F /* WGLVideoPlayerOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayerOption.m; sourceTree = "<group>"; };
+		0956F4722253557D00CA026F /* WGLURLProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLURLProvider.h; sourceTree = "<group>"; };
+		0956F4732253557D00CA026F /* WGLURLProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLURLProvider.m; sourceTree = "<group>"; };
+		0956F4752253557D00CA026F /* WGLPlayerCoverViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverViewBase.m; sourceTree = "<group>"; };
+		0956F4762253557D00CA026F /* WGLPlayerCoverViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverViewProtocol.h; sourceTree = "<group>"; };
+		0956F4782253557D00CA026F /* WGLPlayerCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverView.m; sourceTree = "<group>"; };
+		0956F4792253557D00CA026F /* WGLPlayerCoverFullScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverFullScreenView.m; sourceTree = "<group>"; };
+		0956F47A2253557D00CA026F /* WGLPlayerCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverView.h; sourceTree = "<group>"; };
+		0956F47B2253557D00CA026F /* WGLPlayerCoverFullScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverFullScreenView.h; sourceTree = "<group>"; };
+		0956F47C2253557D00CA026F /* WGLPlayerCoverViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverViewBase.h; sourceTree = "<group>"; };
+		0956F486225355A200CA026F /* WGLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WGLSlider.m; path = ../../../WGLSlider/WGLSlider/WGLSlider.m; sourceTree = "<group>"; };
+		0956F487225355A200CA026F /* WGLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WGLSlider.h; path = ../../../WGLSlider/WGLSlider/WGLSlider.h; sourceTree = "<group>"; };
 		09644B7D22239AB500F94103 /* libWGLVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWGLVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		09644B8022239AB500F94103 /* WGLVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayer.h; sourceTree = "<group>"; };
 		09644B8122239AB500F94103 /* WGLVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayer.m; sourceTree = "<group>"; };
-		09644B8E2223C2A400F94103 /* WGLCorePlayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayerProtocol.h; sourceTree = "<group>"; };
-		09644B8F2223C4F100F94103 /* WGLCorePlayerBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayerBase.h; sourceTree = "<group>"; };
-		09644B902223C4F100F94103 /* WGLCorePlayerBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLCorePlayerBase.m; sourceTree = "<group>"; };
-		09644B922223C9B100F94103 /* WGLCorePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLCorePlayer.h; sourceTree = "<group>"; };
-		09644B932223C9B100F94103 /* WGLCorePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLCorePlayer.m; sourceTree = "<group>"; };
 		09644B972223D06500F94103 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = ../IJKMediaPlayer/IJKMediaFramework.framework; sourceTree = "<group>"; };
-		09644B9B2223DB9B00F94103 /* WGLURLProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLURLProvider.h; sourceTree = "<group>"; };
-		09644B9C2223DB9B00F94103 /* WGLURLProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLURLProvider.m; sourceTree = "<group>"; };
-		09644B9F2223DD7500F94103 /* WGLVideoURLPagesEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoURLPagesEntity.h; sourceTree = "<group>"; };
-		09644BA02223DD7500F94103 /* WGLVideoURLPagesEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoURLPagesEntity.m; sourceTree = "<group>"; };
-		09644BA32223E88C00F94103 /* WGLPlayerCoverViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverViewProtocol.h; sourceTree = "<group>"; };
-		09644BA42223E92600F94103 /* WGLPlayerCoverViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverViewBase.h; sourceTree = "<group>"; };
-		09644BA52223E92600F94103 /* WGLPlayerCoverViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverViewBase.m; sourceTree = "<group>"; };
-		09644BA82223EA4600F94103 /* WGLPlayerCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverView.h; sourceTree = "<group>"; };
-		09644BA92223EA4600F94103 /* WGLPlayerCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverView.m; sourceTree = "<group>"; };
-		09644BAC2223EEF100F94103 /* WGLVideoPlayerOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerOption.h; sourceTree = "<group>"; };
-		09644BAD2223EEF100F94103 /* WGLVideoPlayerOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayerOption.m; sourceTree = "<group>"; };
-		09644BAF2223F0D000F94103 /* WGLPlayerCoverFullScreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverFullScreenView.h; sourceTree = "<group>"; };
-		09644BB02223F0D000F94103 /* WGLPlayerCoverFullScreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerCoverFullScreenView.m; sourceTree = "<group>"; };
 		09644BCB2224DB3A00F94103 /* WGLVideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerView.h; sourceTree = "<group>"; };
 		09644BCC2224DB3A00F94103 /* WGLVideoPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayerView.m; sourceTree = "<group>"; };
 		09644BCF2224DCC800F94103 /* WGLVideoPlayerUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayerUtil.h; sourceTree = "<group>"; };
@@ -113,11 +113,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0956F45C225351A400CA026F /* WGLSlider */ = {
+		0956F4642253557D00CA026F /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				0956F462225351C200CA026F /* WGLSlider.h */,
-				0956F461225351C200CA026F /* WGLSlider.m */,
+				0956F4652253557D00CA026F /* Core */,
+				0956F46B2253557D00CA026F /* Entity */,
+				0956F46E2253557D00CA026F /* Option */,
+				0956F4712253557D00CA026F /* URL */,
+				0956F4742253557D00CA026F /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0956F4652253557D00CA026F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0956F4662253557D00CA026F /* WGLCorePlayerBase.m */,
+				0956F4672253557D00CA026F /* WGLCorePlayer.m */,
+				0956F4682253557D00CA026F /* WGLCorePlayer.h */,
+				0956F4692253557D00CA026F /* WGLCorePlayerBase.h */,
+				0956F46A2253557D00CA026F /* WGLCorePlayerProtocol.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0956F46B2253557D00CA026F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0956F46C2253557D00CA026F /* WGLVideoURLPagesEntity.m */,
+				0956F46D2253557D00CA026F /* WGLVideoURLPagesEntity.h */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0956F46E2253557D00CA026F /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				0956F46F2253557D00CA026F /* WGLVideoPlayerOption.h */,
+				0956F4702253557D00CA026F /* WGLVideoPlayerOption.m */,
+			);
+			path = Option;
+			sourceTree = "<group>";
+		};
+		0956F4712253557D00CA026F /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				0956F4722253557D00CA026F /* WGLURLProvider.h */,
+				0956F4732253557D00CA026F /* WGLURLProvider.m */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		0956F4742253557D00CA026F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0956F4752253557D00CA026F /* WGLPlayerCoverViewBase.m */,
+				0956F4762253557D00CA026F /* WGLPlayerCoverViewProtocol.h */,
+				0956F4772253557D00CA026F /* Sub */,
+				0956F47C2253557D00CA026F /* WGLPlayerCoverViewBase.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0956F4772253557D00CA026F /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				0956F4782253557D00CA026F /* WGLPlayerCoverView.m */,
+				0956F4792253557D00CA026F /* WGLPlayerCoverFullScreenView.m */,
+				0956F47A2253557D00CA026F /* WGLPlayerCoverView.h */,
+				0956F47B2253557D00CA026F /* WGLPlayerCoverFullScreenView.h */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		0956F4852253559500CA026F /* WGLSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0956F487225355A200CA026F /* WGLSlider.h */,
+				0956F486225355A200CA026F /* WGLSlider.m */,
 			);
 			path = WGLSlider;
 			sourceTree = "<group>";
@@ -146,36 +219,12 @@
 				09644B8122239AB500F94103 /* WGLVideoPlayer.m */,
 				09644BCB2224DB3A00F94103 /* WGLVideoPlayerView.h */,
 				09644BCC2224DB3A00F94103 /* WGLVideoPlayerView.m */,
-				0956F45C225351A400CA026F /* WGLSlider */,
-				09644B892223C1F300F94103 /* Main */,
+				0956F4852253559500CA026F /* WGLSlider */,
+				0956F4642253557D00CA026F /* Main */,
 				09644BCE2224DC7500F94103 /* Util */,
 				09644BE6222561C400F94103 /* Tool */,
 			);
 			path = WGLVideoPlayer;
-			sourceTree = "<group>";
-		};
-		09644B892223C1F300F94103 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				09644B8A2223C1F300F94103 /* Core */,
-				09644B9A2223DAF500F94103 /* URL */,
-				09644BAB2223EECE00F94103 /* Option */,
-				09644B9E2223DC5000F94103 /* Entity */,
-				09644BA22223E85000F94103 /* View */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		09644B8A2223C1F300F94103 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				09644B8E2223C2A400F94103 /* WGLCorePlayerProtocol.h */,
-				09644B8F2223C4F100F94103 /* WGLCorePlayerBase.h */,
-				09644B902223C4F100F94103 /* WGLCorePlayerBase.m */,
-				09644B922223C9B100F94103 /* WGLCorePlayer.h */,
-				09644B932223C9B100F94103 /* WGLCorePlayer.m */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		09644B962223D06400F94103 /* Frameworks */ = {
@@ -184,55 +233,6 @@
 				09644B972223D06500F94103 /* IJKMediaFramework.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		09644B9A2223DAF500F94103 /* URL */ = {
-			isa = PBXGroup;
-			children = (
-				09644B9B2223DB9B00F94103 /* WGLURLProvider.h */,
-				09644B9C2223DB9B00F94103 /* WGLURLProvider.m */,
-			);
-			path = URL;
-			sourceTree = "<group>";
-		};
-		09644B9E2223DC5000F94103 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				09644B9F2223DD7500F94103 /* WGLVideoURLPagesEntity.h */,
-				09644BA02223DD7500F94103 /* WGLVideoURLPagesEntity.m */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		09644BA22223E85000F94103 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				09644BA32223E88C00F94103 /* WGLPlayerCoverViewProtocol.h */,
-				09644BA42223E92600F94103 /* WGLPlayerCoverViewBase.h */,
-				09644BA52223E92600F94103 /* WGLPlayerCoverViewBase.m */,
-				09644BA72223EA3400F94103 /* Sub */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		09644BA72223EA3400F94103 /* Sub */ = {
-			isa = PBXGroup;
-			children = (
-				09644BA82223EA4600F94103 /* WGLPlayerCoverView.h */,
-				09644BA92223EA4600F94103 /* WGLPlayerCoverView.m */,
-				09644BAF2223F0D000F94103 /* WGLPlayerCoverFullScreenView.h */,
-				09644BB02223F0D000F94103 /* WGLPlayerCoverFullScreenView.m */,
-			);
-			path = Sub;
-			sourceTree = "<group>";
-		};
-		09644BAB2223EECE00F94103 /* Option */ = {
-			isa = PBXGroup;
-			children = (
-				09644BAC2223EEF100F94103 /* WGLVideoPlayerOption.h */,
-				09644BAD2223EEF100F94103 /* WGLVideoPlayerOption.m */,
-			);
-			path = Option;
 			sourceTree = "<group>";
 		};
 		09644BCE2224DC7500F94103 /* Util */ = {
@@ -373,28 +373,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09644BAE2223EEF100F94103 /* WGLVideoPlayerOption.m in Sources */,
+				0956F4832253557D00CA026F /* WGLPlayerCoverView.m in Sources */,
 				09644C4A22267D2400F94103 /* WGLPlayerProgressCache.m in Sources */,
 				09644BCD2224DB3A00F94103 /* WGLVideoPlayerView.m in Sources */,
 				09644C1B2226398600F94103 /* WGLVolumeProgressView.m in Sources */,
-				0956F463225351C200CA026F /* WGLSlider.m in Sources */,
-				09644BAA2223EA4600F94103 /* WGLPlayerCoverView.m in Sources */,
+				0956F488225355A200CA026F /* WGLSlider.m in Sources */,
 				09644C342226692A00F94103 /* WGLVideoPlayerGesturer.m in Sources */,
+				0956F4842253557D00CA026F /* WGLPlayerCoverFullScreenView.m in Sources */,
 				09644B8222239AB500F94103 /* WGLVideoPlayer.m in Sources */,
-				09644B942223C9B100F94103 /* WGLCorePlayer.m in Sources */,
-				09644B912223C4F100F94103 /* WGLCorePlayerBase.m in Sources */,
 				09644BEA222561C400F94103 /* WGLVideoLoadingView.m in Sources */,
+				0956F47F2253557D00CA026F /* WGLVideoURLPagesEntity.m in Sources */,
 				09644C3A22266EEC00F94103 /* WGLVideoRateProgressView.m in Sources */,
+				0956F47D2253557D00CA026F /* WGLCorePlayerBase.m in Sources */,
 				09644C4722267C1E00F94103 /* WGLPlayerTipMgr.m in Sources */,
+				0956F4802253557D00CA026F /* WGLVideoPlayerOption.m in Sources */,
 				09644C3722266D9500F94103 /* WGLBrightnessProgressView.m in Sources */,
-				09644B9D2223DB9B00F94103 /* WGLURLProvider.m in Sources */,
+				0956F47E2253557D00CA026F /* WGLCorePlayer.m in Sources */,
 				09644C4E2226807800F94103 /* WGLCustomVolumnManager.m in Sources */,
 				09644C4022267ABD00F94103 /* WGLVideoPlayerCommon.m in Sources */,
-				09644BA12223DD7500F94103 /* WGLVideoURLPagesEntity.m in Sources */,
-				09644BA62223E92600F94103 /* WGLPlayerCoverViewBase.m in Sources */,
-				09644BB12223F0D000F94103 /* WGLPlayerCoverFullScreenView.m in Sources */,
+				0956F4822253557D00CA026F /* WGLPlayerCoverViewBase.m in Sources */,
 				09644C3D222672ED00F94103 /* WGLPlayerTipView.m in Sources */,
 				09644C4422267B7000F94103 /* WGLPlayerDummy.m in Sources */,
+				0956F4812253557D00CA026F /* WGLURLProvider.m in Sources */,
 				09644BED2225628100F94103 /* WGLPlayerNetworkStatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
