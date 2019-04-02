@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WGLVideoPlayer"
-  spec.version      = "0.0.13"
+  spec.version      = "0.0.14"
   spec.summary      = "This is a video player component, including the player UI, internal encapsulated IJKPlayer and so on."
 
   # This description is used to generate tags and improve search results.
@@ -118,7 +118,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.frameworks = 'CoreFoundation','Foundation'
+  spec.frameworks = 'CoreFoundation','Foundation','IJKMediaFramework'
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
