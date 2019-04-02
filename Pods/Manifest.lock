@@ -1,0 +1,16 @@
+PODS:
+  - WGLSlider (0.0.1)
+
+DEPENDENCIES:
+  - WGLSlider (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WGLSlider
+
+SPEC CHECKSUMS:
+  WGLSlider: 22475962346a961e540a3952ba5ec8cb9df16ce7
+
+PODFILE CHECKSUM: afbf065ce098e2af42c9810432448d38bcbb6d02
+
+COCOAPODS: 1.6.0.beta.1

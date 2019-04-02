@@ -31,6 +31,7 @@
 		09644C4722267C1E00F94103 /* WGLPlayerTipMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C4622267C1E00F94103 /* WGLPlayerTipMgr.m */; };
 		09644C4A22267D2400F94103 /* WGLPlayerProgressCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C4922267D2400F94103 /* WGLPlayerProgressCache.m */; };
 		09644C4E2226807800F94103 /* WGLCustomVolumnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644C4C2226807800F94103 /* WGLCustomVolumnManager.m */; };
+		9794DF3F159B55D575EF5229 /* libPods-WGLVideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FFD7F5E50A8382E9B392B2 /* libPods-WGLVideoPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +97,9 @@
 		09644C4922267D2400F94103 /* WGLPlayerProgressCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLPlayerProgressCache.m; sourceTree = "<group>"; };
 		09644C4C2226807800F94103 /* WGLCustomVolumnManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLCustomVolumnManager.m; sourceTree = "<group>"; };
 		09644C4D2226807800F94103 /* WGLCustomVolumnManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLCustomVolumnManager.h; sourceTree = "<group>"; };
+		51FFD7F5E50A8382E9B392B2 /* libPods-WGLVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGLVideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5807F85E047F1BECE33D5924 /* Pods-WGLVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGLVideoPlayer.debug.xcconfig"; path = "Target Support Files/Pods-WGLVideoPlayer/Pods-WGLVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		957FA3C68C6BE24950D20820 /* Pods-WGLVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGLVideoPlayer.release.xcconfig"; path = "Target Support Files/Pods-WGLVideoPlayer/Pods-WGLVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09644B982223D06500F94103 /* IJKMediaFramework.framework in Frameworks */,
+				9794DF3F159B55D575EF5229 /* libPods-WGLVideoPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +121,7 @@
 				09644B7F22239AB500F94103 /* WGLVideoPlayer */,
 				09644B7E22239AB500F94103 /* Products */,
 				09644B962223D06400F94103 /* Frameworks */,
+				DC174FA209685389EA3EA5A5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				09644B972223D06500F94103 /* IJKMediaFramework.framework */,
+				51FFD7F5E50A8382E9B392B2 /* libPods-WGLVideoPlayer.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -304,6 +311,16 @@
 			path = ../../../WGLCustomVolumnManager/WGLCustomVolumnManager;
 			sourceTree = "<group>";
 		};
+		DC174FA209685389EA3EA5A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5807F85E047F1BECE33D5924 /* Pods-WGLVideoPlayer.debug.xcconfig */,
+				957FA3C68C6BE24950D20820 /* Pods-WGLVideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -311,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09644B8622239AB500F94103 /* Build configuration list for PBXNativeTarget "WGLVideoPlayer" */;
 			buildPhases = (
+				04C8DACEE5306CC530E0BDAB /* [CP] Check Pods Manifest.lock */,
 				09644B7922239AB500F94103 /* Sources */,
 				09644B7A22239AB500F94103 /* Frameworks */,
 				09644B7B22239AB500F94103 /* CopyFiles */,
@@ -354,6 +372,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C8DACEE5306CC530E0BDAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WGLVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09644B7922239AB500F94103 /* Sources */ = {
@@ -500,6 +543,7 @@
 		};
 		09644B8722239AB500F94103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5807F85E047F1BECE33D5924 /* Pods-WGLVideoPlayer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer\"/**";
@@ -513,6 +557,7 @@
 		};
 		09644B8822239AB500F94103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957FA3C68C6BE24950D20820 /* Pods-WGLVideoPlayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer\"/**";
