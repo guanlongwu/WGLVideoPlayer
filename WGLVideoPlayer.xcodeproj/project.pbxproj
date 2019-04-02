@@ -16,6 +16,7 @@
 		0956F4832253557D00CA026F /* WGLPlayerCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4782253557D00CA026F /* WGLPlayerCoverView.m */; };
 		0956F4842253557D00CA026F /* WGLPlayerCoverFullScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F4792253557D00CA026F /* WGLPlayerCoverFullScreenView.m */; };
 		0956F48B225358B900CA026F /* WGLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F48A225358B900CA026F /* WGLSlider.m */; };
+		0956F48E22535B8A00CA026F /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0956F48D22535B8A00CA026F /* IJKMediaFramework.framework */; };
 		09644B8222239AB500F94103 /* WGLVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B8122239AB500F94103 /* WGLVideoPlayer.m */; };
 		09644B8322239AB500F94103 /* WGLVideoPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09644B8022239AB500F94103 /* WGLVideoPlayer.h */; };
 		09644B982223D06500F94103 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09644B972223D06500F94103 /* IJKMediaFramework.framework */; };
@@ -68,6 +69,7 @@
 		0956F47C2253557D00CA026F /* WGLPlayerCoverViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLPlayerCoverViewBase.h; sourceTree = "<group>"; };
 		0956F489225358B900CA026F /* WGLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLSlider.h; sourceTree = "<group>"; };
 		0956F48A225358B900CA026F /* WGLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLSlider.m; sourceTree = "<group>"; };
+		0956F48D22535B8A00CA026F /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		09644B7D22239AB500F94103 /* libWGLVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWGLVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		09644B8022239AB500F94103 /* WGLVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayer.h; sourceTree = "<group>"; };
 		09644B8122239AB500F94103 /* WGLVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayer.m; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09644B982223D06500F94103 /* IJKMediaFramework.framework in Frameworks */,
+				0956F48E22535B8A00CA026F /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +198,14 @@
 			path = WGLSlider;
 			sourceTree = "<group>";
 		};
+		0956F48C22535B8A00CA026F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0956F48D22535B8A00CA026F /* IJKMediaFramework.framework */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		09644B7422239AB500F94103 = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +234,7 @@
 				0956F4642253557D00CA026F /* Main */,
 				09644BCE2224DC7500F94103 /* Util */,
 				09644BE6222561C400F94103 /* Tool */,
+				0956F48C22535B8A00CA026F /* Library */,
 			);
 			path = WGLVideoPlayer;
 			sourceTree = "<group>";
@@ -516,7 +528,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer\"/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../IJKMediaPlayer\"/**",
+					"$(PROJECT_DIR)/WGLVideoPlayer/Library",
+				);
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer/IJKMediaFramework.framework\"";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,7 +544,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer\"/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../IJKMediaPlayer\"/**",
+					"$(PROJECT_DIR)/WGLVideoPlayer/Library",
+				);
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../IJKMediaPlayer/IJKMediaFramework.framework\"";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
