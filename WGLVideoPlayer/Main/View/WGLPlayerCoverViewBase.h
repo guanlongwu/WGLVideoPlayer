@@ -11,6 +11,8 @@
 #import "WGLSlider.h"
 @protocol WGLPlayerCoverViewDelegate;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface WGLPlayerCoverViewBase : UIView <WGLPlayerCoverViewProtocol>
 
 @property (nonatomic, weak) id<WGLPlayerCoverViewDelegate> delegate;
@@ -48,4 +50,6 @@
 - (void)hideCover:(WGLPlayerCoverViewBase *)coverView;       //隐藏cover
 
 @end
+
+NS_ASSUME_NONNULL_END
 
