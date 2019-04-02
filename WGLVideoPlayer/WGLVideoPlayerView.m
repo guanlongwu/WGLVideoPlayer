@@ -959,10 +959,10 @@
                 [self.rateView setCurrentTime:currentStr duration:durationStr];
                 
                 if (YES == [WGLVideoPlayerOption sharedOption].isEnterFullScreen) {
-                    [self.fullCoverView.sliderView setValue:rate animated:YES];
+//                    [self.fullCoverView.sliderView setValue:rate animated:YES];
                 }
                 else {
-                    [self.coverView.sliderView setValue:rate animated:YES];
+//                    [self.coverView.sliderView setValue:rate animated:YES];
                 }
                 [self.playbackProgressView setProgress:rate animated:YES];
             }

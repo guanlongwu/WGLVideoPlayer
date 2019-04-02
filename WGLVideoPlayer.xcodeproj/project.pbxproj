@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0956F45B22534C0400CA026F /* WGLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F45A22534C0400CA026F /* WGLSlider.m */; };
+		0956F463225351C200CA026F /* WGLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956F461225351C200CA026F /* WGLSlider.m */; };
 		09644B8222239AB500F94103 /* WGLVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B8122239AB500F94103 /* WGLVideoPlayer.m */; };
 		09644B8322239AB500F94103 /* WGLVideoPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09644B8022239AB500F94103 /* WGLVideoPlayer.h */; };
 		09644B912223C4F100F94103 /* WGLCorePlayerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 09644B902223C4F100F94103 /* WGLCorePlayerBase.m */; };
@@ -48,8 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0956F45922534C0400CA026F /* WGLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLSlider.h; sourceTree = "<group>"; };
-		0956F45A22534C0400CA026F /* WGLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLSlider.m; sourceTree = "<group>"; };
+		0956F461225351C200CA026F /* WGLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WGLSlider.m; path = ../../../WGLSlider/WGLSlider/WGLSlider.m; sourceTree = "<group>"; };
+		0956F462225351C200CA026F /* WGLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WGLSlider.h; path = ../../../WGLSlider/WGLSlider/WGLSlider.h; sourceTree = "<group>"; };
 		09644B7D22239AB500F94103 /* libWGLVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWGLVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		09644B8022239AB500F94103 /* WGLVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGLVideoPlayer.h; sourceTree = "<group>"; };
 		09644B8122239AB500F94103 /* WGLVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLVideoPlayer.m; sourceTree = "<group>"; };
@@ -113,14 +113,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0956F45822534C0400CA026F /* WGLSlider */ = {
+		0956F45C225351A400CA026F /* WGLSlider */ = {
 			isa = PBXGroup;
 			children = (
-				0956F45922534C0400CA026F /* WGLSlider.h */,
-				0956F45A22534C0400CA026F /* WGLSlider.m */,
+				0956F462225351C200CA026F /* WGLSlider.h */,
+				0956F461225351C200CA026F /* WGLSlider.m */,
 			);
-			name = WGLSlider;
-			path = ../../WGLSlider/WGLSlider;
+			path = WGLSlider;
 			sourceTree = "<group>";
 		};
 		09644B7422239AB500F94103 = {
@@ -147,7 +146,7 @@
 				09644B8122239AB500F94103 /* WGLVideoPlayer.m */,
 				09644BCB2224DB3A00F94103 /* WGLVideoPlayerView.h */,
 				09644BCC2224DB3A00F94103 /* WGLVideoPlayerView.m */,
-				0956F45822534C0400CA026F /* WGLSlider */,
+				0956F45C225351A400CA026F /* WGLSlider */,
 				09644B892223C1F300F94103 /* Main */,
 				09644BCE2224DC7500F94103 /* Util */,
 				09644BE6222561C400F94103 /* Tool */,
@@ -377,8 +376,8 @@
 				09644BAE2223EEF100F94103 /* WGLVideoPlayerOption.m in Sources */,
 				09644C4A22267D2400F94103 /* WGLPlayerProgressCache.m in Sources */,
 				09644BCD2224DB3A00F94103 /* WGLVideoPlayerView.m in Sources */,
-				0956F45B22534C0400CA026F /* WGLSlider.m in Sources */,
 				09644C1B2226398600F94103 /* WGLVolumeProgressView.m in Sources */,
+				0956F463225351C200CA026F /* WGLSlider.m in Sources */,
 				09644BAA2223EA4600F94103 /* WGLPlayerCoverView.m in Sources */,
 				09644C342226692A00F94103 /* WGLVideoPlayerGesturer.m in Sources */,
 				09644B8222239AB500F94103 /* WGLVideoPlayer.m in Sources */,

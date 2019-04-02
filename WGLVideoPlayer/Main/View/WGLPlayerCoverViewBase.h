@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "WGLPlayerCoverViewProtocol.h"
-#import "WGLSlider.h"
+//#import "WGLSlider.h"
 @protocol WGLPlayerCoverViewDelegate;
 
 @interface WGLPlayerCoverViewBase : UIView <WGLPlayerCoverViewProtocol>
@@ -24,7 +24,7 @@
 @property (nonatomic, strong) UILabel *lblCurrentTime;  //当前时间的label
 @property (nonatomic, strong) UILabel *lblTotalTime;    //总时长的label
 @property (nonatomic, strong) UIProgressView *progressView; //视频加载进度的控件
-@property (nonatomic, strong) WGLSlider *sliderView;     //播放进度条的Slider控件
+//@property (nonatomic, strong) WGLSlider *sliderView;     //播放进度条的Slider控件
 @property (nonatomic, strong) UIButton *fullScreenBtn;  //全屏/恢复按钮
 
 @property (nonatomic, strong, nullable) UITapGestureRecognizer *tapGesture;//手势
