@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WGLVideoPlayer"
-  spec.version      = "0.0.16"
+  spec.version      = "0.0.17"
   spec.summary      = "This is a video player component, including the player UI, internal encapsulated IJKPlayer and so on."
 
   # This description is used to generate tags and improve search results.
@@ -119,7 +119,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.frameworks = 'CoreFoundation','Foundation'
-  spec.vendored_frameworks = ['BaiduMapAPI_Base.framework']
+  spec.vendored_frameworks = ['IJKMediaFramework.framework']
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
